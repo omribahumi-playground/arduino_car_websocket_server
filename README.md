@@ -1,6 +1,14 @@
 arduino_car_websocket_server
 ============================
 
+Dependencies
+------------
+This project requires the following python packages installed:  
+* pyserial
+* tornado
+
+Notes
+-----
 A project to control my arduino car through a web socket
 
 The client should open a web socket to http://ip:8888/ and send JSON messages like these:  
